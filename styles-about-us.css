@@ -1,0 +1,445 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_blackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_bolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_lightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro_mediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/gothampro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('favicon.png');
+
+body {
+    margin: 0;
+    font-family: 'Gotham Pro', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us {
+    width: 1310px;
+    background-color: #FFFFFF;
+    padding-left: 305px; 
+    padding-right: 305px; 
+    padding-top: 40px; 
+}
+
+.header {
+    height: 45px;
+    width: 1310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+.menu-item {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.menu-itm {
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.menu-item:hover {
+    color: #DA6320;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+.phone-number, .address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.phone-text, .address-text {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.address-text {
+    width: 175px;
+    line-height: 20px;
+}
+
+.logo {
+    width: 212px;
+    height: 45px;
+}
+
+.block1 {
+    display: flex;
+    gap: 30px;
+    width: 1310px;
+    height: 565px;
+    margin-top: 40px; 
+    align-items: stretch;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+
+.header-text, .advantages, .join-us {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #313738;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    color: #313738;
+    margin: 0;
+}
+
+.advantage-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 20px;
+    background: #F5F5F5;
+    border-radius: 5px;
+}
+
+.advantage-item-small {
+    width: 292px;
+}
+
+.advantage-item-large {
+    width: 402px;
+}
+
+.advantage-item img {
+    width: 32px;
+    height: 32px;
+}
+
+.advantage-item p {
+    font-size: 16px;
+    font-family: 'Gotham Pro', sans-serif;
+    font-weight: 400;
+    color: #313738;
+    margin: 0;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    align-items: flex-start; 
+}
+
+.images img {
+    width: 320px;
+    height: 100%; 
+    border-radius: 5px;
+}
+
+.navigation {
+    width: 1310px;
+    margin-top: 50px; 
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navigation a {
+    font-size: 16px;
+    font-family: 'Euclid Square', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-decoration: none;
+}
+
+.separator {
+    width: 16px;
+    height: 1px;
+    background: #000000;
+    transform: rotate(90deg);
+}
+
+.block4 {
+    width: 1310px;
+    height: 599px;
+    margin-top: 120px; 
+    position: relative;
+}
+
+.img7, .img6, .img5, .img4, .img3, .img2, .image8 {
+    position: absolute;
+    border-radius: 5px;
+}
+
+.img7 {
+    width: 246px;
+    height: 251px;
+    left: 1064px;
+    top: 348px;
+    background: linear-gradient(0deg, #000000 0%, #000000 100%);
+}
+
+.img6 {
+    width: 246px;
+    height: 251px;
+    left: 808px;
+    top: 348px;
+}
+
+.img5 {
+    width: 246px;
+    height: 251px;
+    left: 552px;
+    top: 348px;
+}
+
+.img4 {
+    width: 246px;
+    height: 251px;
+    left: 1064px;
+    top: 87px;
+}
+
+.img3 {
+    width: 246px;
+    height: 251px;
+    left: 808px;
+    top: 87px;
+}
+
+.img2 {
+    width: 246px;
+    height: 251px;
+    left: 552px;
+    top: 87px;
+}
+
+.image8 {
+    width: 542px;
+    height: 512px;
+    left: 0px;
+    top: 87px;
+}
+
+.h4 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    line-height: 47px;
+    word-wrap: break-word;
+}
+
+.basement {
+    width: 1920px; 
+    height: 348px;
+    margin-top: 120px; 
+    position: relative;
+    left: -305px;
+    right: -305px;
+}
+
+.background {
+    width: 100%; 
+    height: 100%;
+    background: #4E0000;
+    position: absolute;
+}
+
+.menu-basement {
+    position: absolute;
+    top: 163px;
+    left: 808px;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.menu-basement div {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.contacts-basement {
+    position: absolute;
+    top: 127px;
+    left: 1386px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.phone-number-basement, .address-basement {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 238px; 
+
+}
+
+.icon-basement {
+    width: 31px;
+    height: 31px;
+}
+
+.phone-text-basement, .address-text-basement {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.map-icon {
+    width: 31px;
+    height: 32px;
+}
+
+.logo-text {
+    position: absolute;
+    top: 120px;
+    left: 305px;
+    width: 212px;
+    height: 108px;
+}
+
+.logo-basement {
+    width: 212px;
+    height: 45px;
+}
+
+.rights-text, .years-text {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+}
+
+.rights-text {
+    top: 89px;
+}
+
+.years-text {
+    top: 65px;
+}
